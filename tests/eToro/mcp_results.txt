@@ -1,0 +1,22 @@
+[200] https://agent.public-api.etoro.com/ | <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>eToro MCP</title>
+    <style>
+        :root {
+[POST 401] https://agent.public-api.etoro.com/ | initialize | {"error":"unauthorized","error_description":"eToro credentials are required for this connection. Authenticate the MCP connection with OAuth - see the WWW-Authenticate header for where to obtain a token."}
+[POST 200] https://agent.public-api.etoro.com/ | prompts/list | event: message
+data: {"error":{"code":-32601,"message":"Method \u0027prompts/list\u0027 is not available."},"id":4,"jsonrpc":"2.0"}
+[POST 200] https://agent.public-api.etoro.com/ | tools/list | event: message
+data: {"result":{"tools":[{"name":"list-tasks","description":"The user\u0027s most recent trading tasks, newest first - to find a taskId or review what was sent to eToro and how it ended. Each has what identifies it (taskId, status, operation, account, summary, route, timeline, result
+[POST 200] https://agent.public-api.etoro.com/ | resources/list | event: message
+data: {"error":{"code":-32601,"message":"Method \u0027resources/list\u0027 is not available."},"id":3,"jsonrpc":"2.0"}
+[POST 401] https://agent.public-api.etoro.com/mcp | initialize | {"error":"unauthorized","error_description":"eToro credentials are required for this connection. Authenticate the MCP connection with OAuth - see the WWW-Authenticate header for where to obtain a token."}
+[POST 401] https://agent.public-api.etoro.com/mcp/v1 | initialize | {"error":"unauthorized","error_description":"eToro credentials are required for this connection. Authenticate the MCP connection with OAuth - see the WWW-Authenticate header for where to obtain a token."}
+[POST 401] https://agent.public-api.etoro.com/api/mcp | initialize | {"error":"unauthorized","error_description":"eToro credentials are required for this connection. Authenticate the MCP connection with OAuth - see the WWW-Authenticate header for where to obtain a token."}
+[POST 401] https://agent.public-api.etoro.com/rpc | initialize | {"error":"unauthorized","error_description":"eToro credentials are required for this connection. Authenticate the MCP connection with OAuth - see the WWW-Authenticate header for where to obtain a token."}
+[POST 401] https://agent.public-api.etoro.com/sse | initialize | {"error":"unauthorized","error_description":"eToro credentials are required for this connection. Authenticate the MCP connection with OAuth - see the WWW-Authenticate header for where to obtain a token."}
+[POST 401] https://agent.public-api.etoro.com/api/sse | initialize | {"error":"unauthorized","error_description":"eToro credentials are required for this connection. Authenticate the MCP connection with OAuth - see the WWW-Authenticate header for where to obtain a token."}
+[POST 401] https://agent.public-api.etoro.com/v1/mcp | initialize | {"error":"unauthorized","error_description":"eToro credentials are required for this connection. Authenticate the MCP connection with OAuth - see the WWW-Authenticate header for where to obtain a token."}

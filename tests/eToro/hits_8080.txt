@@ -1,0 +1,7 @@
+https://agent.public-api.etoro.com:8443/api/status
+https://mcp-readonly.public-api.etoro.com:8443/api/status
+https://mcp.public-api.etoro.com:8443/api/status
+http://push-demo-lightstreamer.cloud.etoro.com:8080/api/status
+http://push-lightstreamer.cloud.etoro.com:8080/api/status
+http://push-n-hap-ls-lb.cloud.etoro.com:8080/api/status
+http://push-w-hap-ls-lb.cloud.etoro.com:8080/api/status
